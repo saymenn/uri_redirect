@@ -31,11 +31,6 @@ def main(url):
     except Exception as error:
         pass
 
-def usage():
-    print("""
-python3 uri_redirect.py <hosts_file> <threads>
- """)
-
 payload = "//https://google.com"
 
 script, urls_file, threads = sys.argv
